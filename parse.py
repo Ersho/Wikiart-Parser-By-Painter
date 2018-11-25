@@ -1,7 +1,5 @@
-import requests
 from bs4 import BeautifulSoup
 import os
-from collections import defaultdict
 from urllib import request
 
 header = { 'User-Agent' : 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)' }
