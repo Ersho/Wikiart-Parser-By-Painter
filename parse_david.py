@@ -81,10 +81,8 @@ def get_img(index, iteration = 50):
 
 if __name__ == '__main__':
     
-    for i in range(20701, 88768, 300):
-
-        #get_img('https://media.davidrumsey.com/rumsey/Size4/RUMSEY~8~1/171/12241003.jpg')
-
+    for i in range(1, 88768, 300):
+      
         print('Starting process # {}'.format(i))
         
         p1 = Thread(target=get_img, args=(i,))
